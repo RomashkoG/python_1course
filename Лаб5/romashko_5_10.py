@@ -5,7 +5,7 @@ num1 = [int(el) for el in input().split()]
 num2 = []
 
 if n != len(num) or n1 != len(num1):
-    raise ValueError
+    raise ValueError()
 
 for i in num:
     if i not in num1:
